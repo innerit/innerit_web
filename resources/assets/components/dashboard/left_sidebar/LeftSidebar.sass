@@ -1,0 +1,31 @@
+@import "../../../sass/_standard.sass"
+
+.sidebar
+  background: $gradient-aside !important
+  .menu
+    .list
+      a
+        color: $color-white !important
+        border-bottom: none !important
+        &:hover
+          background-color: $color-primary !important
+        &:focus, &:active, &:visited
+          background-color: $color-primary-dark !important
+        span
+          font-size: .7rem !important
+      .ml-menu
+        background: $color-primary !important
+      .toggled
+        background-color: $color-primary-dark !important
+  .user-info
+    background: url('') !important
+    background: $color-primary-dark !important
+    border-bottom: 0 !important
+    margin-bottom: 1.5rem
+    .info-container
+      padding-top: .4rem
+      .name
+        font-size: .8rem !important
+        font-weight: bold
+      .email
+        font-size: .6rem !important
