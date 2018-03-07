@@ -12,7 +12,7 @@
 */
 
 Route::get('/', function () {
-    return view('templates.dashboard-master');
+  return redirect('/my-projects/list');
 });
 
 Route::get('/{vue_capture?}', function () { return view('templates.dashboard-master'); })->where('vue_capture', '[\/\w\.-]*')/*->middleware('auth')*/;
