@@ -1,4 +1,33 @@
 body {
   background: #f5f5f5 !important;
+  overflow-x: hidden !important;
+}
+
+.content-spa {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.block-header {
+  margin-bottom: 2rem;
+}
+
+.btn {
+  border-radius: 20rem !important;
+  cursor: pointer;
+  outline: 0 !important;
+  text-transform: capitalize !important;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.btn-primary {
+  background-color: #019cde !important;
+}
+
+.btn-primary:hover,
+.btn-primary:active,
+.btn-primary:focus {
+  background-color: #015d87 !important;
 }
 

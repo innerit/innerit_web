@@ -14,3 +14,5 @@
 Route::get('/', function () {
     return view('templates.dashboard-master');
 });
+
+Route::get('/{vue_capture?}', function () { return view('templates.dashboard-master'); })->where('vue_capture', '[\/\w\.-]*')/*->middleware('auth')*/;

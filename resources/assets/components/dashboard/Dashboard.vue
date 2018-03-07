@@ -12,7 +12,14 @@
     </div>
 
     <section class="content">
-       <ContentHeader></ContentHeader>
+      <ContentHeader></ContentHeader>
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="content-spa">
+            <router-view></router-view>
+          </div>
+        </div>
+      </div>
     </section>
   </div>
 </template>

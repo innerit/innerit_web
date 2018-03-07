@@ -2,7 +2,7 @@
   <aside id="leftsidebar" class="sidebar">
       <!-- User Info -->
       <div class="user-info">
-          <div class="image"> <img src="assets/images/xs/avatar1.jpg" width="48" height="48" alt="User" /> </div>
+          <div class="image"> <img src="/assets/images/xs/avatar1.jpg" width="48" height="48" alt="User" /> </div>
           <div class="info-container">
               <div class="name">John Doe</div>
               <div class="email">john.doe@example.com</div>
